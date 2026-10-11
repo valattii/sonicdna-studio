@@ -1,0 +1,49 @@
+# ============================================================
+# THE LAST FREQUENCY - Episode 01, Scene 1 (sample scene graph)
+# What is this file? It is the "recipe" your pipeline reads.
+# YAML just means: key: value. Indented lines = details of the line above.
+# ============================================================
+
+scene: 1
+title: "The Call"
+locale_versions: [india, us, europe]   # we will render the SAME scene in 3 vibes
+
+characters:
+  meera:        # our hero - a radio host who hears something impossible
+    voice: "TBD - paste your ElevenLabs voice_id here after step 3"
+    age: 32
+    mood: "tired but sharp"
+    dna_card: "dna_cards/meera.json"
+  signal:       # the mysterious caller - no name, no face
+    voice: "TBD - paste your ElevenLabs voice_id here after step 3"
+    age: "unknown"
+    mood: "calm, unsettling"
+    dna_card: "dna_cards/signal.json"
+
+lines:
+  - speaker: meera
+    emotion: flat_exhaustion
+    text: "You're on air with Meera. Caller, you have sixty seconds. Make them count."
+    sfx: [studio_monitor_hum, city_traffic_far]
+  - speaker: signal
+    emotion: calm_menace
+    text: "Sixty seconds. That is exactly how long it took you to stop believing."
+    sfx: [phone_static_soft, low_drone]
+  - speaker: meera
+    emotion: irritation
+    text: "Believing what? Look, prank calls go to the last hour of the night shift."
+    sfx: []
+  - speaker: signal
+    emotion: quiet_smile
+    text: "Check your screen, Meera. The frequency you are broadcasting on... does not exist."
+    sfx: [heartbeat_single, dial_tone_warped]
+  - speaker: meera
+    emotion: fear_breaking_through
+    text: "Who is this? How do you know my---"
+    sfx: [chair_scrape, monitor_hum_cut]
+  - speaker: signal
+    emotion: gentle_finality
+    text: "Do not leave the studio. It has already started."
+    sfx: [deep_boom, silence_3_seconds]
+# note the final line: the SFX is a 3-second SILENCE.
+# THAT is the "reverb tail = plot twist" idea. Silence is a sound too.

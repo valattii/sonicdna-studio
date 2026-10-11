@@ -1,0 +1,11 @@
+{
+  "character": "signal",
+  "elevenlabs_voice_id": "PASTE_HERE",
+  "settings": {
+    "stability": 0.75,
+    "similarity_boost": 0.90,
+    "style": 0.10
+  },
+  "notes": "HIGHER stability = calmer, colder, more machine-like. Signal must NEVER waver. That is the scary part.",
+  "reference_embedding_file": "dna_cards/signal_ref.npy (create in step 5)"
+}

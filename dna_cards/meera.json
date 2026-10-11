@@ -1,0 +1,11 @@
+{
+  "character": "meera",
+  "elevenlabs_voice_id": "PASTE_HERE",
+  "settings": {
+    "stability": 0.45,
+    "similarity_boost": 0.75,
+    "style": 0.30
+  },
+  "notes": "Lower stability = more emotion. Meera should sound human, tired, real.",
+  "reference_embedding_file": "dna_cards/meera_ref.npy (create in step 5)"
+}
