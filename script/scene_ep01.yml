@@ -10,12 +10,12 @@ locale_versions: [india, us, europe]   # we will render the SAME scene in 3 vibe
 
 characters:
   meera:        # our hero - a radio host who hears something impossible
-    voice: "TBD - paste your ElevenLabs voice_id here after step 3"
+    voice: "sTuFDs5r9KT8f6JSiJbq"
     age: 32
     mood: "tired but sharp"
     dna_card: "dna_cards/meera.json"
   signal:       # the mysterious caller - no name, no face
-    voice: "TBD - paste your ElevenLabs voice_id here after step 3"
+    voice: "g85nKwR1U50Q6hQhgFTl"
     age: "unknown"
     mood: "calm, unsettling"
     dna_card: "dna_cards/signal.json"
