@@ -19,14 +19,4 @@ script (scene YAML) -> ElevenLabs TTS (voice locked per character)
 - episodes/ep01/   stems (raw pieces) and masters (finished audio)
 - dashboard/       numbers about your pipeline (loudness, consistency)
 
-## Today's checklist
-- [ ] 1. Read script/scene_ep01.yml - understand the format
-- [ ] 2. Create the 2 character voices in ElevenLabs Voice Designer
-- [ ] 3. Save voice IDs into dna_cards/*.json and into the YAML
-- [ ] 4. Generate every line, listen, re-generate the weak ones
-- [ ] 5. Consistency check: does Signal sound like the SAME person in all 6 lines?
-- [ ] 6. Generate a tense music bed (Suno, instrumental) + SFX list
-- [ ] 7. Assemble in FL Studio: dialogue loud, music quiet underneath
-- [ ] 8. Master: ~-16 LUFS, then LISTEN ON YOUR PHONE SPEAKER
-- [ ] 9. Render the US and Europe vibe versions (score/mix changes only)
-- [ ] 10. Record a 2-min Loom walkthrough -> apply
+
